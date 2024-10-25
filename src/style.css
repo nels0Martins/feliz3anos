@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+    background-color: #FF6723;
+}
+
+#principal {
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 40%;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+#cabecalho {
+    border-bottom: 2px solid #FF6723;
+    margin: 20px auto;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+#cabecalho h1 {
+    font-family: "Satisfy", cursive;
+    padding: 10px;
+    font-size: 2.2rem;
+}
+
+#cabecalho p {
+    font-size: 1rem;
+    padding: 5px;
+}
+
+#secaoTexto, #secaoPoema {
+    border-bottom: 2px solid #FF6723;
+    padding: 10px;
+    margin: 10px 0 0 0;
+}
+
+#secaoTexto p, #secaoPoema p{
+    margin: 10px 0;
+    font-size: 1.05rem;
+}
+
+#secaoPoema p {
+    text-align: center;
+}
+
+.divh2 {
+    text-align: center;
+    
+}
+
+.divh2 h2 {
+    font-size: 1.8rem;
+}
+
+#secaoSlider {
+    margin: 10px auto;
+    padding: 10px;
+    border-bottom: 2px solid #FF6723;
+}
+
+#secaoSlider h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+/* Contêiner do slider para tela maior */
+.container-slider {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* Ajuste do contêiner de imagens */
+.container-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border: 2px solid  #FF6723;
+    border-radius: 20px;
+}
+
+/* Configuração das imagens */
+.slider {
+    display: none; /* Esconde as imagens por padrão */
+    max-width: 100%;
+    width: 100%; 
+    height: auto;
+    border-radius: 10px;
+}
+
+.on {
+    display: block; /* Exibe apenas a imagem ativa */
+    opacity: 1;
+    transition: opacity 0.2s;
+}
+
+/* Botões de navegação maiores */
+#prev-button, #next-button {
+    width: 40px; /* Botões maiores para desktop */
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#prev-button > img, #next-button > img {
+    width: 100%;
+    height: 100%;
+}
+
+#prev-button {
+    transform: rotate(180deg);
+}
+
+#rodape {
+    text-align: center;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+#nelson, #maria, h2 {
+    font-family: "Satisfy", cursive;
+    font-size: 1.3rem;
+}
+
+#nelson:hover, #maria:hover {
+    color: #FF6723;
+    cursor: pointer;
+}

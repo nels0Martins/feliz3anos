@@ -1,0 +1,47 @@
+@media (max-width: 414px) {
+    #principal {
+        background-color: white;
+        border: none;
+        width: 98%;
+        margin: 20px auto;
+        border-radius: none;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    #secaoSlider {
+        width: 95%;
+        padding: 5px;
+    }
+    
+    #secaoSlider h2 {
+        font-size: 1.7rem; /* Reduzindo o título para caber melhor */
+    }
+
+    .container-slider {
+        gap: 0.25rem; /* Menor espaço entre botões e imagem */
+        margin-bottom: 20px;
+    }
+
+    #prev-button, #next-button {
+        width: 25px; /* Botões ligeiramente menores */
+        height: 25px;
+    }
+    
+    .container-images {
+        width: 100%;
+    }
+    
+    .slider {
+        max-width: 100%; /* Garante que as imagens ocupem o máximo do contêiner */
+        width: 100%;
+        border-radius: 8px; /* Reduzido para melhor aparência em tela pequena */
+    }
+
+    footer {
+        margin-bottom: 20px;
+    }
+}
